@@ -1,0 +1,45 @@
+appId: com.wwmm2.app
+productName: WWMM2
+directories:
+    buildResources: build
+files:
+    - "!**/.*"
+    - "!**/.*/**/*"
+    - "!src/**/*"
+    - "!electron.vite.config.{js,ts,mjs,cjs}"
+    - "!{eslint.config.mjs,dev-app-update.yml,CHANGELOG.md,README.md}"
+    - "!{pnpm-lock.yaml}"
+    - "!{tsconfig.json,tsconfig.node.json,tsconfig.web.json}"
+    - "!node_modules/.pnpm/@cbor-extract+cbor-extract-linux-arm@*/**/*"
+    - "!node_modules/.pnpm/@cbor-extract+cbor-extract-linux-arm64@*/**/*"
+    - "!node_modules/.pnpm/@cbor-extract+cbor-extract-linux-x64@*/**/*"
+    - "!native/**/*"
+    - "!plugins/**/*"
+    - "!local.db"
+    - "!tools/**/*"
+# asar: false
+asarUnpack:
+    - resources/**
+    - "**/*.node"
+    - "node_modules/sharp"
+    - "node_modules/@img"
+win:
+    # cscLink: wwmm2.pfx
+    # cscKeyPassword: password
+    executableName: WWMM2
+    extraResources:
+        - from: "native/dll-injector/target/release"
+          filter:
+              - dll-injector.exe
+nsis:
+    artifactName: WWMM2 Setup ${version}.${ext}
+    shortcutName: ${productName}
+    uninstallDisplayName: ${productName}
+    createDesktopShortcut: true
+    include: build/installer.nsh
+    deleteAppDataOnUninstall: true
+npmRebuild: false
+publish:
+    provider: github
+    owner: lightninglast
+    repo: wwmm2

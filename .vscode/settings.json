@@ -1,0 +1,33 @@
+{
+  "cmake.ignoreCMakeListsMissing": true,
+  "rust-analyzer.linkedProjects": [
+    "native/mod-manager/Cargo.toml",
+    "native/extractor/Cargo.toml",
+    "native/utils/Cargo.toml",
+    "native/dll-injector/Cargo.toml",
+    "native/fs/Cargo.toml"
+  ],
+  "oxc.fmt.configPath": ".oxfmtrc.json",
+  "oxc.format.enable": true,
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "i18n-ally.localesPaths": ["src/renderer/src/lib/i18n", "src/renderer/src/lib/i18n/locales"],
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  }
+}

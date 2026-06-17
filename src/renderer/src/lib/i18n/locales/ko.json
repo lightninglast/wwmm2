@@ -1,0 +1,1102 @@
+{
+  "g": {
+    "search": "검색",
+    "name": "이름",
+    "date": "날짜",
+    "size": "크기",
+    "cancel": "취소",
+    "confirm": "확인",
+    "select": "선택",
+    "apply": "적용",
+    "delete": "삭제",
+    "add": "추가",
+    "create": "생성",
+    "unknown": "알 수 없는",
+    "save": "저장",
+    "close": "닫기",
+    "rename": "이름 변경",
+    "download": "다운로드",
+    "later": "나중에",
+    "save_success": "설정이 저장되었습니다.",
+    "save_failed": "설정 저장에 실패했습니다."
+  },
+  "page": {
+    "transfer": {
+      "title": "전송",
+      "stats_label": {
+        "upload": "업로드",
+        "download": "다운로드",
+        "total_transferred": "전체 전송량",
+        "active_transfers": "진행중인 전송"
+      },
+      "toolbar": {
+        "all": "전체",
+        "upload": "업로드",
+        "download": "다운로드",
+        "status_filter": {
+          "title": "상태 필터",
+          "uploading": "업로드 중",
+          "downloading": "다운로드 중",
+          "paused": "일시정지됨",
+          "completed": "완료됨",
+          "failed": "실패",
+          "queued": "대기열"
+        }
+      },
+      "empty_state": {
+        "all_tabs": "전송 기록이 없습니다",
+        "uploading": "업로드 중인 파일이 없습니다",
+        "downloading": "다운로드 중인 파일이 없습니다",
+        "completed": "완료된 전송이 없습니다",
+        "failed": "실패한 전송이 없습니다",
+        "paused": "일시정지된 전송이 없습니다",
+        "search_results": "검색 결과가 없습니다"
+      },
+      "item": {
+        "uploading": "업로드 중",
+        "downloading": "다운로드 중",
+        "completed": "완료",
+        "failed": "실패",
+        "paused": "일시정지",
+        "queued": "대기 중",
+        "preparing": "준비 중",
+        "time_remaining": "{{time}} 남음",
+        "time_elapsed": "{{time}} 경과",
+        "failed_files": "{{count}}개 실패",
+        "dropdown_menu": {
+          "cancel": "취소",
+          "retry": "다시 시도",
+          "retry_failed_files": "실패한 파일 재시도",
+          "remove_from_transfer": "전송에서 제거"
+        }
+      }
+    },
+    "drive": {
+      "title": "드라이브",
+      "share_drive": "공유 드라이브",
+      "no_contents_section_message": {
+        "0": "이 폴더에 파일이나 폴더가 없습니다",
+        "1": "여기로 파일이나 폴더를 드래그 해 업로드하세요"
+      },
+      "toast": {
+        "no_uploadable_files": "업로드 가능한 파일이 없습니다."
+      },
+      "head_buttons": {
+        "search_in_dir_placeholder": "이 폴더에서 검색...",
+        "dropdown_menu": {
+          "download": "다운로드",
+          "make_new": {
+            "title": "새로 만들기",
+            "new_dir": "폴더 생성",
+            "upload_dir": "폴더 업로드",
+            "upload_file": "파일 업로드"
+          }
+        }
+      },
+      "list_head": {
+        "name": "이름",
+        "date": "수정한 날짜",
+        "size": "크기"
+      },
+      "context_menu": {
+        "open": "열기",
+        "download": "다운로드",
+        "rename": "이름 바꾸기",
+        "trash": "휴지통",
+        "new_dir": "폴더 생성",
+        "delete": "삭제",
+        "cut": "잘라내기",
+        "paste": "붙여넣기"
+      },
+      "dialog": {
+        "common": {
+          "invalid_dir_name": "유효하지 않은 디렉토리 이름입니다.",
+          "invalid_file_name": "유효하지 않은 파일 이름입니다."
+        },
+        "create_dir": {
+          "title": "폴더 생성",
+          "name_input_placeholder": "폴더 이름",
+          "#": {
+            "0": "디렉토리 이름 형식이 유효하지 않습니다",
+            "1": "디렉토리를 생성할 경로의 정보를 가져오는데 실패했어요",
+            "2": "동일한 이름의 폴더가 이미 존재합니다.",
+            "toast-promise": {
+              "loading": "디렉토리를 생성하고 있습니다...",
+              "success": "디렉토리가 생성되었습니다"
+            }
+          }
+        },
+        "rename": {
+          "title": "이름 바꾸기",
+          "name_input_placeholder": "새 이름",
+          "extension": "확장자",
+          "#": {
+            "0": "이름은 비워둘 수 없습니다",
+            "1": "디렉토리 이름 형식이 유효하지 않습니다",
+            "toast-promise": {
+              "loading": "이름을 변경하고 있습니다...",
+              "success": "이름이 변경되었습니다."
+            }
+          }
+        },
+        "conflict_name": {
+          "title": "중복 이름 항목이 있습니다",
+          "description": "중복 {{count}}개를 어떻게 처리할지 선택해 주세요.",
+          "option_suffix": "이름 변경: name (2) 형태로 이름 변경 후 업로드",
+          "option_skip": "건너뛰기: 중복 항목 제외 후 업로드",
+          "preview_label": "중복 항목:",
+          "preview_more": "외 {{count}}개",
+          "action_skip": "건너뛰기",
+          "action_suffix": "이름 변경"
+        },
+        "delete_items": {
+          "title": "항목 삭제",
+          "description": "선택한 항목을 영구 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+          "action": "삭제",
+          "#": {
+            "toast": {
+              "success": "항목이 삭제되었습니다"
+            }
+          }
+        }
+      }
+    },
+    "share_drive": {
+      "title": "공유 드라이브"
+    },
+    "mod": {
+      "title": "모드 매니저",
+      "dad_section": {
+        "title": "{{name}}에 추가",
+        "description": "압축 파일은 자동으로 압축 해제됩니다"
+      },
+      "all_enabled": "모두 활성화",
+      "all_disabled": "모두 비활성화",
+      "content-header": {
+        "all_enabled": "모든 모드가 활성화되었습니다",
+        "all_disabled": "모든 모드가 비활성화되었습니다",
+        "tools": "도구",
+        "wuwa-mod-fixer": "Wuwa Mod Fixer",
+        "download_dialog": {
+          "title": "URL로 다운로드",
+          "description": "입력한 압축 파일 URL을 현재 선택한 캐릭터 폴더에 다운로드하고 자동으로 압축을 해제합니다.",
+          "url_label": "다운로드 URL",
+          "url_placeholder": "직접 다운로드 URL을 입력하세요",
+          "target_label": "대상 폴더",
+          "no_target": "왼쪽에서 캐릭터 폴더를 선택하세요",
+          "invalid_url": "올바른 URL을 입력하세요.",
+          "file_only": "파일만 다운로드할 수 있습니다.",
+          "started": "다운로드를 시작했습니다."
+        }
+      },
+      "character-sidebar": {
+        "add-to-character": "{{name}}에 추가",
+        "open-in-explorer": "파일 탐색기에서 열기",
+        "create-folder": "새 폴더 만들기",
+        "delete-folder": "삭제",
+        "collapse-subgroups": "서브폴더 접기",
+        "expand-subgroups": "서브폴더로 탐색",
+        "unpersist-subgroups": "서브폴더 지정 해제",
+        "persist-subgroups": "서브폴더로 지정",
+        "unmark-manual-subgroup": "수동 서브그룹 지정 해제",
+        "tools": "도구",
+        "wuwa-mod-fixer": "Wuwa Mod Fixer"
+      },
+      "drag_drop": {
+        "target_path_not_set": "대상 경로가 설정되지 않았습니다.",
+        "group_path_not_set": "그룹 경로가 설정되지 않았습니다.",
+        "file_path_unavailable": "파일 경로를 확인할 수 없습니다.",
+        "unsupported_file_with_images": "{{fileName}}은(는) 지원하는 파일 형식이 아닙니다. (압축 파일, 폴더, 이미지 파일만 가능)",
+        "unsupported_file_archive_only": "{{fileName}}은(는) 지원하는 파일 형식이 아닙니다. (압축 파일 또는 폴더만 가능)",
+        "already_exists_folder": "이미 존재하는 폴더입니다: {{folderName}}",
+        "already_exists_item": "이미 존재하는 항목입니다: {{folderName}}",
+        "processing_error": "파일 처리 중 오류가 발생했습니다.",
+        "extract": {
+          "loading": "{{fileName}} 압축 해제 중...",
+          "success": "{{fileName}} 압축 해제 완료",
+          "error": "{{fileName}} 압축 해제 실패"
+        },
+        "copy": {
+          "loading": "{{fileName}} 처리 중...",
+          "success": "{{fileName}} 추가 완료",
+          "error": "{{fileName}} 추가 실패"
+        }
+      },
+      "dialog": {
+        "extract_archive_path": {
+          "title": "압축 해제 경로 선택",
+          "description": "{{fileName}} 안에 단일 최상위 폴더가 있을 때 어떤 구조로 해제할지 선택해 주세요.",
+          "cancel": "취소",
+          "flatten_single_root": "최상위 폴더 제거",
+          "flatten_single_root_example": "예: mod.zip/a/b/mod.ini -> b/mod.ini",
+          "keep_archive_root": "압축 내부 경로 유지",
+          "keep_archive_root_example": "예: mod.zip/a/b/mod.ini -> a/b/mod.ini"
+        },
+        "add-game": {
+          "title": "게임 추가",
+          "name_input_placeholder": "게임 이름 (예: 원공노)",
+          "path_input_placeholder": "모드 폴더 경로",
+          "xxmi_path_required": "Importer를 가져오려면 먼저 XXMI 경로를 설정해야 합니다.",
+          "open_xxmi_settings": "Importer 설정 열기",
+          "#": {
+            "0": "게임 이름을 입력해주세요",
+            "1": "모드 폴더 경로를 선택해주세요"
+          }
+        },
+        "edit-game": {
+          "title": "게임 설정",
+          "path_label": "모드 폴더 경로",
+          "importer_label": "Importer",
+          "no_importer": "없음",
+          "order_label": "표시 순서",
+          "order_value": "{{total}}개 중 {{current}}번째",
+          "order_description": "위아래 버튼으로 드롭다운에 표시되는 게임 순서를 변경합니다."
+        },
+        "preset-management": {
+          "description": "이 프리셋에는 {{length}}개의 모드가 저장되어 있습니다.",
+          "legacy-badge": "레거시",
+          "legacy-description": "이 프리셋은 구버전 형식이라 적용할 수 없습니다. 삭제 후 다시 만들어 주세요."
+        },
+        "delete-game": {
+          "title": "게임 삭제",
+          "description": "정말로 '{{name}}'을 삭제할까요? 이 작업은 되돌릴 수 없으며, 해당 게임의 프리셋도 함께 삭제됩니다."
+        },
+        "delete-mod": {
+          "title": "이 모드를 삭제할까요?",
+          "description": "삭제된 모드는 휴지통에서 복원할 수 있습니다."
+        },
+        "rename-mod": {
+          "title": "모드 이름 변경",
+          "description": "이 모드에 사용되는 폴더 이름을 변경합니다.",
+          "name-placeholder": "모드 이름",
+          "confirm": "이름 변경"
+        },
+        "texture-resize": {
+          "title": "모드 텍스처 리사이즈",
+          "description": "\"{{name}}\" 아래의 DDS 파일을 찾아 제자리에서 리사이즈합니다."
+        },
+        "create-folder": {
+          "title": "새 폴더 만들기",
+          "description": "{{name}} 아래에 새 폴더를 만듭니다.",
+          "name-placeholder": "폴더 이름",
+          "#": {
+            "success": "\"{{name}}\" 폴더를 만들었습니다",
+            "invalid-name": "폴더 이름이 올바르지 않습니다",
+            "already-exists": "이미 존재하는 폴더명입니다",
+            "failed": "폴더 생성에 실패했습니다"
+          }
+        },
+        "delete-folder": {
+          "title": "이 폴더를 삭제할까요?",
+          "description": "\"{{name}}\" 폴더를 삭제할까요? 삭제한 폴더는 휴지통에서 복원할 수 있습니다.",
+          "#": {
+            "success": "폴더를 휴지통으로 보냈습니다",
+            "failed": "폴더 삭제에 실패했습니다"
+          }
+        },
+        "delete-preview": {
+          "title": "프리뷰를 삭제할까요?",
+          "description": "\"{{name}}\"의 프리뷰를 삭제할까요? 삭제한 프리뷰는 휴지통에서 복원할 수 있습니다."
+        },
+        "overwrite-preview": {
+          "title": "기존 프리뷰를 덮어쓸까요?",
+          "description": "\"{{name}}\"에는 이미 프리뷰가 있습니다. 계속하면 기존 프리뷰를 새 파일로 덮어씁니다.",
+          "confirm": "덮어쓰기"
+        },
+        "add-preset": {
+          "name-placeholder": "프리셋 이름",
+          "description-placeholder": "설명 (선택 사항)",
+          "title": "새 프리셋 생성",
+          "conflict": {
+            "title": "중복 모드 항목이 발견되었습니다",
+            "description": "DISABLED 접두사는 같은 모드로 취급되므로 이 상태로는 프리셋을 만들 수 없습니다. 계속하면 비활성 중복 폴더의 이름을 바꾼 뒤 프리셋 생성을 진행합니다.",
+            "mod-key-label": "충돌 키",
+            "enabled": "활성",
+            "disabled": "비활성",
+            "action": "비활성 중복 폴더 이름 변경 후 계속"
+          },
+          "#": {
+            "0": "프리셋 이름을 입력해주세요"
+          }
+        },
+        "wuwa-fix-runner": {
+          "install": {
+            "title": "Wuwa Mod Fixer 설치",
+            "description": "Wuwa Mod Fixer가 설치되어 있지 않습니다. 지금 최신 버전을 설치할까요?",
+            "action": "설치"
+          },
+          "update": {
+            "title": "Wuwa Mod Fixer 업데이트",
+            "description": "더 새로운 Wuwa Mod Fixer 버전을 사용할 수 있습니다.",
+            "installed": "설치된 버전",
+            "latest": "최신 버전",
+            "rate_limited_until": "GitHub API 요청 제한이 {{time}}까지 적용됩니다.",
+            "continue_without_update": "업데이트 없이 계속",
+            "action": "업데이트"
+          },
+          "options": {
+            "title": "Wuwa Mod Fixer",
+            "rollback": "최근 픽스 롤백",
+            "derived_hashes": {
+              "label": "Derived Hash 추가",
+              "description": "누락된 텍스처 상태 해시(예: LOD Bias High/Medium, 칸타렐라 wet, 치사 Enhanced E, 에이메스 Charged)를 추가해 캐릭터 모드 텍스처가 올바르게 표시되도록 합니다. 일부 캐릭터는 아직 포함되지 않을 수 있습니다."
+            },
+            "stable_texture": {
+              "label": "Stable Texture 적용",
+              "description": "RabbitFX를 사용해 캐릭터에 Stable Texture를 적용합니다. 현재는 칸타렐라, 치사, 카르테시아, 샤콘 등을 지원하며, 최신 RabbitFX가 필요합니다."
+            },
+            "aemeath_mech": {
+              "label": "에이메스 메카 폼 수정",
+              "description": "이미 정상인 에이메스 메카 모드에는 이 옵션을 켜지 마세요. 같은 수정을 다시 적용하면 안 됩니다."
+            },
+            "aero_fix": {
+              "label": "Aero 여성 방랑자 눈 Fix",
+              "description": "공명 에너지가 가득 찼을 때 눈이 깨지는 문제가 있는 경우 사용합니다.",
+              "options": {
+                "none": "사용 안 함",
+                "texcoord_override": "TexCoord Override",
+                "texture_mirror_flip": "Texture Mirror Flip"
+              },
+              "warning": "해당 문제가 실제로 있는 모드에서만 활성화하세요."
+            },
+            "run": "실행"
+          },
+          "log": {
+            "input_placeholder": "입력..."
+          }
+        }
+      },
+      "hooks": {
+        "use-mod-mutations": {
+          "add-game-mutation": {
+            "success": "게임이 추가되었습니다.",
+            "duplicate-game-name": "이미 존재하는 게임 이름입니다.",
+            "duplicate-mod-folder-path": "이미 사용 중인 모드 폴더 경로입니다.",
+            "invalid-params": "게임 이름과 모드 폴더 경로를 입력해주세요.",
+            "failed": "게임 추가에 실패했습니다."
+          },
+          "delete-game-mutation": {
+            "success": "게임이 삭제되었습니다."
+          },
+          "update-game-mutation": {
+            "success": "게임 설정이 저장되었습니다."
+          },
+          "reorder-games-mutation": {
+            "success": "게임 순서가 저장되었습니다.",
+            "failed": "게임 순서를 저장하지 못했습니다."
+          },
+          "toggle-mutation": {
+            "0": "이미 {{name}} 폴더가 존재합니다",
+            "1": "{{processes}} 가 해당 폴더를 사용 중이기 때문에 변경할 수 없습니다",
+            "1-fallback": "폴더가 잠겨있어 변경할 수 없습니다",
+            "2": "모드 상태 변경에 실패했습니다"
+          },
+          "rename-mutation": {
+            "0": "이미 {{name}} 폴더가 존재합니다",
+            "1": "{{processes}} 가 해당 폴더를 사용 중이기 때문에 이름을 변경할 수 없습니다",
+            "1-fallback": "폴더가 잠겨있어 이름을 변경할 수 없습니다",
+            "2": "올바른 모드 이름을 입력해주세요",
+            "3": "모드 이름 변경에 실패했습니다"
+          },
+          "locked-description": "다음 프로세스에서 해당 폴더를 사용 중입니다: {{processes}}",
+          "create-preset-mutation": {
+            "success": "프리셋이 추가되었습니다.",
+            "duplicate-name": "이미 존재하는 프리셋 이름입니다.",
+            "conflict-resolve-failed": "일부 중복 모드 폴더를 자동으로 정리하지 못했습니다."
+          },
+          "apply-preset-mutation": {
+            "legacy": "레거시 프리셋은 적용할 수 없습니다. 삭제 후 다시 만들어 주세요.",
+            "success": "프리셋이 적용되었습니다.",
+            "missing": "프리셋 적용이 완료되었지만 누락된 모드가 {{count}}개 있습니다."
+          },
+          "delete-preset-mutation": {
+            "success": "프리셋이 삭제되었습니다."
+          }
+        }
+      },
+      "empty_selection": "사이드바에서 그룹이나 캐릭터 폴더를 선택해주세요.",
+      "no-preview": "프리뷰 없음",
+      "context-menu": {
+        "paste-preview": "붙여넣기",
+        "open-preview-viewer": "뷰어로 열기",
+        "delete-preview": "프리뷰 삭제",
+        "open-cmd": "CMD 열기",
+        "open-folder": "폴더 열기",
+        "mark-manual-subgroup": "서브그룹으로 지정",
+        "rename": "이름 변경"
+      },
+      "toast": {
+        "trash-loading": "휴지통으로 이동 중...",
+        "trash-success": "삭제 완료",
+        "trash-error": "삭제 실패",
+        "value-required": "값을 입력해주세요.",
+        "rename-success": "모드 이름이 변경되었습니다",
+        "manual-subgroup-success": "서브그룹으로 지정했습니다",
+        "manual-subgroup-remove-success": "서브그룹 지정을 해제했습니다",
+        "download_completed": "\"{{name}}\" 다운로드가 완료되었습니다.",
+        "paste-preview": {
+          "copying": "프리뷰 복사 중...",
+          "success": "프리뷰가 업데이트되었습니다",
+          "copy-error": "프리뷰 복사에 실패했습니다",
+          "downloading": "프리뷰 다운로드 중...",
+          "download-error": "프리뷰 다운로드에 실패했습니다",
+          "saving": "프리뷰 저장 중...",
+          "save-error": "프리뷰 저장에 실패했습니다",
+          "no-image": "클립보드에 이미지, 이미지 URL 또는 이미지 파일이 없습니다.",
+          "clipboard-error": "클립보드를 읽지 못했습니다."
+        },
+        "preview-drop": {
+          "saving": "프리뷰 저장 중...",
+          "success": "프리뷰가 업데이트되었습니다",
+          "error": "프리뷰 저장에 실패했습니다",
+          "unsupported": "사이드바에는 이미지 또는 동영상 파일 1개만 프리뷰로 드롭할 수 있습니다.",
+          "path-error": "파일 경로를 확인할 수 없습니다."
+        }
+      },
+      "log-dialog": {
+        "title": "로그",
+        "running": "실행 중..."
+      }
+    },
+    "gamebanana": {
+      "title": "GameBanana",
+      "back": "뒤로",
+      "auth": {
+        "checking_title": "GameBanana 로그인 상태를 확인하는 중입니다",
+        "checking_description": "저장된 로그인 쿠키를 검사하고 필요하면 다시 로그인합니다.",
+        "required_title": "GameBanana 로그인이 필요합니다",
+        "required_description": "로그인 정보가 만료되었거나 사용할 수 없습니다. 다시 로그인해 주세요.",
+        "cancelled_title": "GameBanana 로그인이 취소되었습니다",
+        "cancelled_description": "로그인을 완료해야 GameBanana 데이터를 불러올 수 있습니다.",
+        "retry": "다시 로그인",
+        "manual_rmc": {
+          "button": "rmc 직접 입력",
+          "title": "rmc 토큰 직접 설정",
+          "description": "브라우저에서 가져온 GameBanana rmc 쿠키 값을 직접 입력합니다.",
+          "empty": "rmc 값을 입력해 주세요.",
+          "GAMEBANANA_INVALID_RMC": "잘못된 rmc 토큰입니다.",
+          "GAMEBANANA_SERVER_UNREACHABLE": "서버가 응답하지 않습니다.",
+          "GAMEBANANA_MANUAL_RMC_SAVE_FAILED": "rmc 토큰 저장에 실패했습니다."
+        }
+      },
+      "supported_games": "지원 게임",
+      "supported_games_description": "게임을 선택하면 개요와 루트 모드 카테고리를 불러옵니다.",
+      "selected": "선택됨",
+      "root_categories": "루트 카테고리",
+      "game_menu": "게임",
+      "loading": "불러오는 중...",
+      "back_to_category": "카테고리로 돌아가기",
+      "category_panel_title": "카테고리",
+      "category_panel_description_root": "게임의 루트 카테고리를 탐색합니다.",
+      "category_panel_description_nested": "현재 카테고리의 하위 카테고리를 탐색합니다.",
+      "category_panel_description_selected": "\"{{name}}\"의 하위 카테고리를 탐색합니다.",
+      "no_categories": "표시할 카테고리가 없습니다.",
+      "stage": {
+        "game": "게임",
+        "category": "카테고리",
+        "mod": "모드"
+      },
+      "error_title": "GameBanana 데이터를 불러오지 못했습니다",
+      "error_description_unknown": "요청에 실패했습니다. GameBanana 로그인 상태를 확인하거나 잠시 후 다시 시도하세요.",
+      "error_description_auth": "GameBanana 인증에 실패했습니다. 다시 로그인하세요.",
+      "error_description_http": "GameBanana가 HTTP {{status}}{{statusText}} 응답을 반환했습니다.",
+      "error_description_schema": "GameBanana가 {{context}}에 대해 예상과 다른 데이터를 반환했습니다.",
+      "game_overview_description": "선택한 게임의 개요와 주요 제출물을 확인합니다.",
+      "open_profile": "웹에서 열기",
+      "open_mod_url": {
+        "button": "URL 열기",
+        "title": "모드 URL로 열기",
+        "placeholder": "https://gamebanana.com/mods/...",
+        "invalid": "올바른 GameBanana 모드 URL을 입력해 주세요.",
+        "confirm": "열기"
+      },
+      "logout": "로그아웃",
+      "stats": {
+        "subscribers": "구독자",
+        "sections": "섹션",
+        "top_submissions": "주요 제출물",
+        "likes": "좋아요",
+        "posts": "댓글",
+        "views": "조회수",
+        "downloads": "다운로드"
+      },
+      "top_submissions": "주요 제출물",
+      "latest_feed": "최신 피드",
+      "latest_feed_description": "선택한 게임의 최근 제출물입니다.",
+      "category_loading": "카테고리 불러오는 중...",
+      "category_description": "하위 카테고리와 모드를 탐색합니다.",
+      "game_page": "게임 페이지",
+      "subcategories": "하위 카테고리",
+      "mods": "모드",
+      "mods_description": "선택한 카테고리의 모드 목록을 페이지별로 탐색합니다.",
+      "search_mods": "모드 검색...",
+      "previous": "이전",
+      "next": "다음",
+      "retry_later": "잠시 후 다시 시도하세요",
+      "no_results": "일치하는 모드가 없습니다.",
+      "mod_details": "모드 상세",
+      "mod_details_description": "모드를 선택하면 파일, 통계, 링크를 확인할 수 있습니다.",
+      "preview": "프리뷰",
+      "preview_description": "모드의 미리보기 이미지를 확인합니다.",
+      "no_preview_image": "프리뷰 이미지가 없습니다.",
+      "comments": "댓글",
+      "comments_description": "GameBanana 댓글을 인기순 또는 최신순으로 확인합니다.",
+      "comment_sort": {
+        "popular": "인기순",
+        "newest": "최신순"
+      },
+      "comment_replies": "답글 {{count}}개",
+      "comment_stamps": "스탬프 {{count}}개",
+      "load_more_comments": "댓글 더 보기",
+      "no_comments": "표시할 댓글이 없습니다.",
+      "select_mod_prompt": "목록에서 모드를 선택해 상세 정보를 확인하세요.",
+      "no_description": "설명이 없습니다.",
+      "files": "파일",
+      "no_files": "다운로드 가능한 파일이 없습니다.",
+      "file_downloads": "{{count}}회 다운로드",
+      "download_start_failed": "다운로드를 시작하지 못했습니다.",
+      "narrow_window": {
+        "title": "창이 너무 좁습니다",
+        "description": "GameBanana 콘텐츠를 보려면 창을 더 넓혀주세요."
+      }
+    },
+    "tools": {
+      "dashboard": {
+        "sidebar_title": "모드 도구",
+        "tools_label": "도구",
+        "toggle_sidebar": "사이드바 전환",
+        "empty_title": "개발자 도구",
+        "empty_description": "사이드바에서 도구를 선택하거나 아래 항목을 눌러 시작하세요.",
+        "external_page": "외부 페이지",
+        "inline_tool": "내장 도구"
+      },
+      "d3d11_builder": {
+        "title": "d3d11.dll 빌더",
+        "description": "게임 프로세스에 인젝션될 dll을 빌드합니다",
+        "provider": "제공자",
+        "version": "버전",
+        "version_hint": "빌드에 실패할 경우 버전을 낮춰 재시도해 보세요.",
+        "loading": "불러오는 중...",
+        "load_failed": "버전을 불러오지 못했습니다.",
+        "no_versions": "사용 가능한 버전이 없습니다.",
+        "target_importer": "대상 Importer",
+        "no_importer": "사용 가능한 Importer가 없습니다",
+        "select_importer_msg": "대상 Importer를 선택해주세요.",
+        "building": "빌드 진행중",
+        "start_build": "빌드 시작",
+        "progress": {
+          "XXMI_INIT": "초기화 중...",
+          "XXMI_ERR_GIMI_NOT_FOUND": "Importer를 찾을 수 없습니다.",
+          "XXMI_FIND_VS": "Visual Studio 빌드 도구 찾는 중...",
+          "XXMI_ERR_VS_NOT_FOUND": "Visual Studio 환경(vcvars64.bat)을 찾을 수 없습니다. C++ 빌드 도구가 설치되어 있는지 확인하세요.",
+          "XXMI_BUILDING": "D3D11 DLL 빌드 중...",
+          "XXMI_ERR_DLL_NOT_FOUND": "빌드된 d3d11.dll 파일을 찾을 수 없습니다.",
+          "XXMI_ERR_DLL_NOT_WRITABLE": "대상 Importer에 d3d11.dll을 쓸 수 없습니다. 폴더 권한을 확인하세요.",
+          "XXMI_ERR_DLL_IN_USE": "d3d11.dll을 교체할 수 없습니다. 게임을 먼저 종료한 뒤 다시 시도하세요.",
+          "XXMI_BUILD_SUCCESS": "d3d11.dll이 성공적으로 적용되었습니다.",
+          "XXMI_ERR_BUILD_FAILED": "빌드 중 예기치 않은 오류가 발생했습니다.",
+          "XXMI_DOWNLOAD_REPO": "XXMI 소스 코드 다운로드 중...",
+          "XXMI_EXTRACT_REPO": "소스 코드 압축 해제 중...",
+          "XXMI_ENABLE_UNSAFE_MODE": "Unsafe Mode 활성화 중..."
+        }
+      },
+      "toggle_viewer_generator": {
+        "title": "Toggle Viewer 생성기",
+        "not_configured": "XXMI 경로가 설정되지 않았습니다. XXMI를 먼저 설정하세요.",
+        "auto_generate": "Toggle Viewer 자동 생성",
+        "auto_generate_desc": "모드 ini 토글 섹션에서 toggle-viewer 파일을 자동으로 생성합니다.",
+        "hotkey": "Toggle Viewer 단축키",
+        "batch_generate": "일괄 생성",
+        "batch_delete": "일괄 삭제",
+        "stop": "중지",
+        "running": "실행 중: {{mode}}",
+        "idle": "대기 중",
+        "unknown": "알 수 없음",
+        "logs": "로그",
+        "no_logs": "아직 로그가 없습니다.",
+        "dialog": {
+          "trigger": "단축키:",
+          "title": "Toggle Viewer 단축키",
+          "description": "설정할 단축키 조합을 누르세요"
+        }
+      },
+      "static_glb_converter": {
+        "title": "정적 GLB 변환기",
+        "description": "매칭되는 asset layout 파일을 사용해 XXMI/GIMI 모드를 정적 GLB로 변환합니다.",
+        "asset_layout_path": "에셋 레이아웃 경로",
+        "asset_layout_placeholder": ".fmt 또는 *-vb0.txt 파일이 들어 있는 폴더",
+        "asset_layout_hint": "이 경로는 저장되며, 모드 매니저에서 모델을 열 때 재사용됩니다.",
+        "target_mod_path": "대상 모드 경로",
+        "target_mod_placeholder": "모드 폴더 또는 .ini 경로",
+        "output_glb_path": "출력 GLB 경로",
+        "output_glb_placeholder": ".glb 파일이 저장될 위치",
+        "texture_format": "텍스처 형식",
+        "texture_format_options": {
+          "png": "PNG",
+          "jpeg_safe": "JPEG (알파 안전)",
+          "jpeg_force": "JPEG (전체 강제)"
+        },
+        "texture_format_descriptions": {
+          "png": "모든 텍스처를 PNG로 유지합니다.",
+          "jpeg-safe": "기본은 JPEG를 사용하고, 알파가 필요한 텍스처만 PNG로 유지합니다.",
+          "jpeg-force": "알파 텍스처를 포함해 모든 텍스처를 JPEG로 강제 인코딩합니다."
+        },
+        "jpeg_quality": "JPEG 품질",
+        "jpeg_quality_hint": "선택한 모드에서 JPEG를 쓸 때 적용됩니다. 범위: 1-100.",
+        "jpeg_quality_disabled_hint": "JPEG 품질은 JPEG 모드에서만 사용됩니다.",
+        "browse": "찾아보기",
+        "folder": "폴더",
+        "include_tangents": "탄젠트 포함",
+        "include_tangents_description": "일부 뷰어에서는 유용하지만, 오래된 내보내기에서는 잘못된 탄젠트 데이터가 드러날 수 있습니다.",
+        "debug_mode": "디버그 모드",
+        "debug_mode_description": "GLB 옆에 있는 \"texture-cache\" 폴더에 추출된 텍스처를 저장합니다.",
+        "converting": "변환 중",
+        "convert_to_glb": "GLB로 변환",
+        "open_in_model_viewer": "모델 뷰어에서 열기",
+        "result_written": "{{meshCount}}개 메시를 저장했습니다",
+        "result_warnings": "경고 {{warningCount}}개",
+        "toast": {
+          "save_asset_path_failed": "에셋 경로를 저장하지 못했습니다",
+          "save_texture_settings_failed": "텍스처 설정을 저장하지 못했습니다",
+          "created": "정적 GLB가 생성되었습니다",
+          "created_description": "{{meshCount}}개 메시, 경고 {{warningCount}}개",
+          "failed": "정적 GLB 변환에 실패했습니다"
+        }
+      },
+      "texture_resizer": {
+        "title": "텍스처 리사이저",
+        "target_folder": "대상 폴더",
+        "target_folder_placeholder": "DDS 파일을 재귀적으로 검색할 폴더",
+        "browse": "찾아보기",
+        "operation": "작업 종류",
+        "operation_options": {
+          "resize": "리사이즈만",
+          "resize_and_convert": "리사이즈 + 포맷 변환",
+          "convert": "포맷 변환만"
+        },
+        "operation_descriptions": {
+          "resize": "텍스처 크기만 변경합니다. DDS 포맷은 유지됩니다.",
+          "resize_and_convert": "텍스처를 리사이즈한 뒤 색공간은 유지하면서 다른 DDS 포맷으로 다시 인코딩합니다.",
+          "convert": "원본 크기는 유지하고 DDS 출력 포맷만 변경합니다."
+        },
+        "mode": "리사이즈 방식",
+        "mode_options": {
+          "percent": "비율",
+          "custom": "커스텀 범위"
+        },
+        "mode_descriptions": {
+          "percent": "비율로 줄인 뒤 각 텍스처를 가장 가까운 유효 DDS 크기로 스냅합니다.",
+          "custom": "가로/세로 값을 최대 범위로 사용합니다. 각 텍스처는 원본 비율을 유지합니다."
+        },
+        "percent": "비율",
+        "custom_width": "최대 가로",
+        "custom_height": "최대 세로",
+        "custom_hint": "커스텀 범위는 1024px 단위로 보정됩니다. 실제 출력 크기는 각 텍스처 원본 비율을 유지하면서 개별적으로 결정됩니다.",
+        "resize_step": "리사이즈 단계",
+        "resize_step_description": "1024 배수로 가능한 크기만 슬라이더에서 선택합니다.",
+        "resize_step_unavailable": "이 텍스처는 1024 단위로 줄일 수 있는 유효한 단계가 없습니다.",
+        "output_color_space": "출력 색공간",
+        "output_color_space_description": "원본 색공간을 판별하지 못했습니다. sRGB 또는 Linear 중 하나를 직접 선택하세요.",
+        "output_format": "출력 포맷",
+        "output_format_description": "원본 색공간과 호환되는 포맷만 표시됩니다.",
+        "current_output_format": "선택된 출력 포맷",
+        "backup": "백업 생성",
+        "backup_description": "각 DDS를 덮어쓰기 전에 같은 위치에 .bak 파일을 만듭니다. 기존 백업은 유지합니다.",
+        "load": "텍스처 목록 불러오기",
+        "refresh": "목록 새로고침",
+        "texture_list_title": "텍스처 목록",
+        "texture_list_empty": "경로를 선택한 뒤 텍스처 목록을 불러오세요.",
+        "loading_textures": "텍스처 목록을 불러오는 중입니다.",
+        "preview_unavailable": "미리보기를 만들 수 없습니다",
+        "ready": "변환 가능",
+        "not_resizable": "건너뜀",
+        "process_single": "변환",
+        "run": "텍스처 변환",
+        "running": "변환 중",
+        "result_title": "변환 결과",
+        "list": {
+          "total": "전체",
+          "resizable": "변환 가능",
+          "skipped": "건너뜀"
+        },
+        "meta": {
+          "path": "전체 경로",
+          "size": "파일 크기",
+          "format": "DDS 포맷",
+          "layers": "레이어 수",
+          "source": "원본 크기",
+          "target": "예상 결과"
+        },
+        "color_space": {
+          "srgb": "sRGB",
+          "linear": "Linear",
+          "unknown": "알 수 없음"
+        },
+        "dialog": {
+          "title": "텍스처 변환 옵션",
+          "description_fallback": "선택한 DDS 파일"
+        },
+        "result": {
+          "processed": "처리",
+          "updated": "변경",
+          "skipped": "건너뜀",
+          "failed": "실패"
+        },
+        "toast": {
+          "save_settings_failed": "텍스처 변환 설정을 저장하지 못했습니다",
+          "load_failed": "텍스처 목록을 불러오지 못했습니다",
+          "completed": "텍스처 변환이 완료되었습니다",
+          "completed_description": "{{updated}}개 변경, {{failed}}개 실패",
+          "single_completed": "텍스처 변환이 완료되었습니다",
+          "single_completed_fallback": "선택한 텍스처 처리가 완료되었습니다",
+          "failed": "텍스처 변환에 실패했습니다"
+        }
+      },
+      "model_viewer": {
+        "title": "모델 뷰어",
+        "toggle_viewer": "토글 뷰어",
+        "open_file": "파일 열기",
+        "convert_first": "먼저 모드를 GLB로 변환한 뒤 여기에서 여세요.",
+        "generating_selected_state": "선택한 상태 생성 중",
+        "model_data_unavailable": "모델 데이터를 사용할 수 없습니다.",
+        "menu": {
+          "model": "모델",
+          "texture": "텍스처",
+          "renderer": "렌더러",
+          "rendering": "렌더링",
+          "misc": "기타",
+          "rotate": "회전",
+          "reset": "초기화",
+          "toggle": "토글",
+          "capture_set_preview": "캡처 후 프리뷰 지정",
+          "save_to_ini": "INI에 저장"
+        },
+        "dialog": {
+          "overwrite_preview": {
+            "title": "프리뷰 교체",
+            "description": "\"{{name}}\"에 이미 프리뷰가 있습니다. 현재 뷰어 캡처로 교체할까요?",
+            "confirm": "프리뷰 교체"
+          }
+        },
+        "toast": {
+          "save_to_ini_success": "현재 토글 상태를 INI에 저장했습니다.",
+          "save_to_ini_no_changes": "저장할 persist 변수를 찾지 못했습니다.",
+          "save_to_ini_error": "INI 저장에 실패했습니다.",
+          "capture_preview_success": "현재 뷰어 캡처를 preview.png로 저장했습니다.",
+          "capture_preview_error": "현재 뷰어 캡처를 preview.png로 저장하지 못했습니다."
+        },
+        "rotate_actions": {
+          "Left 90°": "왼쪽으로 90°",
+          "Right 90°": "오른쪽으로 90°",
+          "Up 90°": "위로 90°",
+          "Down 90°": "아래로 90°",
+          "Flip 180°": "180° 뒤집기"
+        }
+      },
+      "fix-tool-manager": {
+        "title": "Fix Tool Manager",
+        "presets": {},
+        "builder": {
+          "left": {
+            "title": "추가된 스크립트",
+            "description": "드래그 드랍해 스크립트를 추가하거나 + 버튼을 눌러 우측으로 이동할 수 있습니다",
+            "noScripts": {
+              "title": "사용할 수 있는 스크립트가 없습니다",
+              "description": "python 파일(.py) 또는 실행 파일(.exe)을 여기로 드래그 드랍해 추가할 수 있습니다"
+            },
+            "dropToAdd": "드롭하여 추가"
+          },
+          "right": {
+            "title": "프리셋 구성",
+            "description": "드래그해 스크립트 순서를 변경할 수 있습니다",
+            "presetName": "프리셋 이름",
+            "enterPresetName": "프리셋 이름을 입력해 주세요",
+            "noScripts": {
+              "title": "추가된 스크립트가 없습니다",
+              "description": "왼쪽 목록에서 + 버튼을 눌러 스크립트를 추가할 수 있습니다"
+            },
+            "#": {
+              "handleSavePreset": {
+                "success": "프리셋이 저장되었습니다",
+                "error": "프리셋 저장에 실패했습니다",
+                "alreadyExists": "이미 존재하는 프리셋 이름입니다"
+              }
+            }
+          }
+        }
+      }
+    },
+    "setting": {
+      "title": "설정",
+      "tabs": {
+        "general": "일반",
+        "mod": "모드",
+        "account": "계정",
+        "advanced": "고급",
+        "drive": "드라이브",
+        "transfer": "전송"
+      },
+      "gen": {
+        "application": {
+          "title": "애플리케이션",
+          "runOnStartup": "로그인할 때 실행",
+          "runOnStartupDescription": "시스템이 시작될 때 앱을 자동으로 실행합니다.",
+          "checkUpdate": "업데이트 확인",
+          "runInBackground": "백그라운드 실행",
+          "runInBackgroundDescription": "모든 창을 닫아도 앱을 백그라운드에서 계속 실행합니다.",
+          "runInBackgroundDisableConfirmTitle": "백그라운드 실행을 끌까요?",
+          "runInBackgroundDisableConfirmDescription": "Toggle Persist 또는 Toggle Viewer를 사용할 때는 백그라운드 실행을 유지하는 편이 더 안전하고 안정적입니다. 이 기능을 끄면 모든 창을 닫는 순간 앱이 종료되므로, 앱을 다시 열기 전까지 해당 기능들을 사용할 수 없습니다. 그래도 백그라운드 실행을 끄시겠어요?",
+          "runInBackgroundDisableConfirmAction": "그래도 끄기",
+          "autoUpdate": "자동 업데이트",
+          "updateStatus": "업데이트 상태",
+          "autoUpdateModes": {
+            "auto": {
+              "title": "자동 업데이트",
+              "description": "앱 시작 시와 1시간마다 업데이트를 확인하고 자동으로 다운로드합니다."
+            },
+            "notify": {
+              "title": "업데이트 알림",
+              "description": "업데이트는 자동으로 확인하지만, 다운로드는 직접 시작할 때만 진행합니다."
+            },
+            "off": {
+              "title": "자동 업데이트 끔",
+              "description": "업데이트 자동 확인과 자동 다운로드를 모두 비활성화합니다."
+            }
+          }
+        },
+        "language": {
+          "title": "언어",
+          "select": "언어 선택"
+        },
+        "theme": {
+          "title": "테마",
+          "select": "테마 선택",
+          "light": "밝게",
+          "dark": "어둡게",
+          "system": "시스템 기본값"
+        },
+        "startPage": {
+          "title": "시작 페이지",
+          "select": "시작 페이지 선택"
+        },
+        "titlebarStyle": {
+          "title": "타이틀바 스타일",
+          "select": "스타일 선택",
+          "modern": "모던",
+          "native": "네이티브"
+        },
+        "logLevel": {
+          "title": "로그 레벨",
+          "select": "레벨 선택"
+        },
+        "other": {
+          "title": "기타",
+          "moveTransferPageWhenStartTransfer": "전송 시작 시 페이지 이동",
+          "moveTransferPageWhenStartTransferDescription": "파일 전송이 시작되면 자동으로 전송 관리 페이지로 이동합니다.",
+          "powerSaveBlockInTransfer": "절전 모드 방지",
+          "powerSaveBlockInTransferDescription": "전송 또는 동기화가 진행 중일 때 시스템이 대기 상태로 들어가는 것을 막습니다.",
+          "imageCacheTitle": "이미지 캐시",
+          "imageCacheDescription": "프리뷰 이미지 캐시를 정리합니다",
+          "imageCacheClear": "캐시 정리"
+        }
+      },
+      "mod": {
+        "title": "모드",
+        "mod_management": {
+          "title": "모드 관리",
+          "archiveExtractPathMode": "압축 해제 경로 방식",
+          "archiveExtractPathModeDescription": "압축 파일 안에 단일 최상위 폴더가 있을 때 어떤 경로로 해제할지 선택합니다.",
+          "archiveExtractPathModes": {
+            "flatten_single_root": "최상위 폴더 제거",
+            "keep_archive_root": "압축 내부 경로 유지",
+            "ask_every_time": "매번 물어봄"
+          },
+          "deleteArchiveAfterExtract": "압축 해제 후 삭제",
+          "deleteArchiveAfterExtractDescription": "압축 파일을 모드 폴더에 해제한 후 원본 압축 파일을 삭제합니다",
+          "moveFolderInsteadOfCopy": "폴더 복사 대신 이동",
+          "moveFolderInsteadOfCopyDescription": "폴더를 모드 폴더에 드롭할 때 복사하지 않고 이동합니다 (원본 삭제)",
+          "copyShaderFixesOnEnable": "활성화 시 ShaderFixes 복사",
+          "copyShaderFixesOnEnableDescription": "모드를 활성화할 때 모드 안의 ShaderFixes 파일을 활성 Importer의 ShaderFixes 폴더로 복사합니다.",
+          "searchModPreview": "하위 폴더에서 미리보기 검색",
+          "searchModPreviewDescription": "캐릭터 폴더에 프리뷰 이미지가 없는 경우, 모드 폴더 내부에서 프리뷰 이미지를 검색합니다."
+        },
+        "layout": {
+          "title": "레이아웃",
+          "sidebar": {
+            "mode": "사이드바 레이아웃",
+            "modeDescription": "캐릭터 사이드바를 행 목록 또는 정사각형 프리뷰 그리드로 표시합니다.",
+            "modes": {
+              "row": "행 목록",
+              "grid": "프리뷰 그리드"
+            }
+          },
+          "grid": {
+            "mode": "모드 그리드 레이아웃",
+            "modeDescription": "모드 그리드가 카드 너비와 열 개수를 결정하는 방식을 선택합니다.",
+            "modes": {
+              "responsive": "반응형",
+              "fixed_card_width": "고정 카드 너비",
+              "fixed_column_count": "고정 열 개수"
+            },
+            "responsiveBaseWidth": "반응형 기준 카드 너비",
+            "responsiveBaseWidthDescription": "사용 가능한 너비에 몇 개의 열이 들어가는지 계산할 때 사용합니다. 범위: 240~640.",
+            "fixedCardWidth": "고정 카드 너비",
+            "fixedCardWidthDescription": "카드 너비를 고정하고 들어갈 수 있는 열 개수만 변경합니다. 범위: 240~640.",
+            "fixedColumnCount": "고정 열 개수",
+            "fixedColumnCountDescription": "가능한 경우 항상 이 개수의 열을 사용합니다. 범위: 1~8."
+          }
+        },
+        "performance": {
+          "title": "성능",
+          "backdrop-blur": {
+            "title": "블러 사용",
+            "description": "모드 탐색시 성능 문제가 발생하는 경우 이 옵션을 해제하세요"
+          },
+          "virtualization": {
+            "title": "가상화 사용",
+            "description": "모드 목록을 가상화하여 성능을 향상시킵니다",
+            "threshold": "기준 모드 개수",
+            "thresholdDescription": "설정한 개수 이상의 모드가 있을 때 가상화를 적용합니다",
+            "threshold_min": "기준 모드 개수는 10개 이상이어야 합니다."
+          }
+        }
+      },
+      "xxmi": {
+        "xxmiPath": "XXMI 경로",
+        "autoScan": "자동 탐색",
+        "activeImporter": "활성화된 Importer",
+        "persistToggles": "토글 영구 저장",
+        "persistTogglesDescription": "리로드할 때 모드 ini를 수정해 토글 상태를 영구 저장합니다",
+        "persistNotFoundXXMI": "XXMI Launcher 경로를 먼저 설정해 주세요.",
+        "fn": {
+          "findXXMIPath": {
+            "xxmiNotFound": "XXMI 를 찾을 수 없습니다",
+            "alert": {
+              "title": "주의",
+              "description": "자동 탐색된 XXMI 런처 경로를 확인하세요. 정상적이지 않다면 직접 경로를 입력해주세요."
+            }
+          },
+          "saveXXMIPath": {
+            "success": "XXMI 경로가 저장되었습니다",
+            "configNotFound": "해당 경로에서 XXMI Launcher Config.json 파일을 찾을 수 없습니다"
+          }
+        }
+      },
+      "acc": {
+        "title": "계정",
+        "not_logged_in": {
+          "description": "로그인이 필요합니다.",
+          "login": "로그인"
+        },
+        "my_account": "내 계정",
+        "logout": "로그아웃"
+      },
+      "adv": {
+        "title": "고급",
+        "warning_title": "주의",
+        "warning_description": "이 곳의 설정을 변경하면 앱 동작에 영향을 줄 수 있습니다."
+      },
+      "transfer": {
+        "title": "전송",
+        "concurrency": {
+          "title": "동시 전송"
+        },
+        "other": {
+          "title": "기타"
+        },
+        "downloadConcurrency": {
+          "title": "다운로드 동시 전송 수",
+          "description": "드라이브 전송에서 동시에 다운로드할 파일 수를 설정합니다. 범위: 16~64"
+        },
+        "uploadConcurrency": {
+          "title": "업로드 동시 전송 수",
+          "description": "드라이브 전송에서 동시에 업로드할 파일 수를 설정합니다. 범위: 4~16"
+        },
+        "uploadCreateManyConcurrency": {
+          "title": "업로드 메타데이터 동시 요청 수",
+          "description": "파일 업로드를 시작하기 전에 동시에 실행할 요청 수를 설정합니다. 범위: 1~4"
+        }
+      },
+      "drive": {
+        "title": "드라이브",
+        "sorting": {
+          "title": "정렬"
+        },
+        "nameSortPolicy": {
+          "title": "이름 정렬 정책",
+          "description": "드라이브에서 이름순으로 정렬할 때 공백과 숫자를 처리하는 방식을 선택합니다.",
+          "select": "정렬 정책 선택",
+          "options": {
+            "natural_ignore_spacing": "자연 정렬 + 공백 무시",
+            "natural": "기본 자연 정렬"
+          }
+        }
+      }
+    },
+    "docs": {
+      "title": "사용 방법"
+    }
+  },
+  "components": {
+    "path-selector-dialog": {
+      "title": "경로 선택",
+      "description": "{{name}} 를 어떤 방식으로 다운로드 할지 선택하세요",
+      "mod_manager": {
+        "title": "모드 매니저",
+        "description": {
+          "0": "모드 매니저에서",
+          "1": "캐릭터 폴더를 선택합니다"
+        }
+      },
+      "explorer": {
+        "title": "경로 선택",
+        "description": {
+          "0": "파일 탐색기에서",
+          "1": "폴더를 선택합니다"
+        }
+      }
+    },
+    "download-confirmation-overlay": {
+      "title": "다운로드 확인",
+      "description": "다운로드할 위치를 선택하세요",
+      "file_name": "파일 이름",
+      "file_name_placeholder": "파일 이름을 입력하세요",
+      "download_location": "다운로드 위치",
+      "need_select_character_folder": "좌측에서 캐릭터 폴더를 선택하세요",
+      "path_select_failed": "경로 선택에 실패했습니다.",
+      "create_folder": "\"{{name}}\" 폴더 만들기",
+      "create_folder_failed": "폴더 생성에 실패했습니다."
+    }
+  },
+  "updater": {
+    "titlebar": {
+      "action": "업데이트 확인",
+      "downloadAction": "업데이트 다운로드"
+    },
+    "actions": {
+      "download": "업데이트 다운로드",
+      "install": "업데이트 설치"
+    },
+    "status": {
+      "idle": "최신 버전을 사용 중입니다.",
+      "checking": "업데이트를 확인하는 중입니다...",
+      "downloading": "업데이트를 다운로드하는 중입니다...",
+      "available": "새 업데이트가 있습니다. 원할 때 다운로드할 수 있습니다.{{versionRangeText}}",
+      "downloaded": "업데이트를 설치할 준비가 되었습니다."
+    },
+    "toast": {
+      "available": {
+        "title": "새로운 버전이 출시되었습니다.",
+        "description": "WWMM2의 새로운 버전이 출시되었습니다. 다시 시작하여 업데이트하세요.",
+        "action": "업데이트",
+        "releaseNotesTitle": "릴리즈 노트",
+        "showOriginal": "원문 보기",
+        "showTranslation": "번역 보기"
+      },
+      "notAvailable": {
+        "title": "최신 버전을 사용 중입니다.",
+        "description": "현재 사용할 수 있는 업데이트가 없습니다."
+      }
+    }
+  }
+}

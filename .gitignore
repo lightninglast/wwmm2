@@ -1,0 +1,24 @@
+node_modules
+dist
+out
+.DS_Store
+.eslintcache
+*.log*
+*.db*
+
+# Native addon build artifacts (built locally via `pnpm build:native`)
+native/**/target
+native/**/*.node
+native/**/build
+native/extractor/*.exe
+
+# Generated IPC/router types (created on first `pnpm dev`/`pnpm build`)
+*.gen.ts
+
+# Local-only / per-install data — never publish
+plans
+.claude/
+ModFolder/
+dev-errors.log
+CLAUDE.md
+dev.bat
